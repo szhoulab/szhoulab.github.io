@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1" />
+	<meta name="description"
+		  content="" />
+	<title>Sirui Zhou Lab</title>
+	<link href="bootstrap/css/bootstrap.min.css"
+		  rel="stylesheet" />
+	<link href="css/zhoulab.css"
+		  rel="stylesheet" />
+</head>
+
+<body>
+	<?php
+		include("scripts/zhoulab.php");
+		visitor_counter();
+	?>
+	<header class="site-header sticky-top py-1">
+		<nav class="navbar navbar-dark navbar-expand-md bg-dark">
+			<div class="container-fluid">
+				<span class="navbar-brand">
+					<a style="text-decoration: none"
+					   href="#">Zhou Lab</a>
+					<img src="media/dna-science-icon.svg"
+						 width="30"
+						 height="30"
+						 style="margin-right: 10px" />
+				</span>
+				<button class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNavAltMarkup"
+						aria-controls="navbarNavAltMarkup"
+						aria-expanded="false"
+						aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse"
+					 id="navbarNavAltMarkup">
+					<div class="navbar-nav container d-flex justify-content-between">
+						<a class="nav-link"
+						   aria-current="page"
+						   href="#">Home</a><a class="nav-link"
+						   href="#projects">Projects</a><a class="nav-link"
+						   href="#team">Team</a><a class="nav-link"
+						   href="#publications">Publications</a><a class="nav-link"
+						   href="#outreach">Outreach</a><a class="nav-link"
+						   href="#positions">Positions</a><a class="nav-link"
+						   href="#contact">Contact</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-1">
+			<div class="container-fluid position-relative overflow-clip p-3 p-md-5 m-md-3 text-center bg-light">
+				<div class="col-5 mx-auto mb-4 background">
+					<div class="blur">
+						<h1 class="logo display-3 fw-normal pb-4 justify-center">
+							Zhou Lab<br />of<br />Population Genomics and <span class="nowrap">Multi-Omics</span>
+						</h1>
+					</div>
+				</div>
+				<div class="container">
+					<img src="media/protein.png" />
+					<img src="figures/image001.png"
+						 width="98.8%" />
+				</div>
+			</div>
+		</div>
+		<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+			<div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+				<div class="my-3 p-3">
+					<h2 class="display-5 pb-4"
+						id="projects">Projects</h2>
+					<div class="container text-start">
+						<h5>Genetically supported multi-omics biomarkers for drug discovery</h5>
+						<ul>
+							<li>
+								We will identify causal circulating proteins and metabolites for diseases, using
+								genetic
+								epidemiological methods including Mendelian randomization (MR), statistical
+								colocalization and PRS.
+							</li>
+							<img src="figures/image003.png"
+								 class="figure" />
+							<br />
+							<li>
+								We will explore and develop novel statistical methods for MR and colocalization that
+								incorporates the evidence of pQTL/sQTL/eQTL and mQTL/sQTL/eQTL.
+							</li>
+						</ul>
+						<h5>
+							Ancestry specific proteogenomic signatures of complex diseases and traits
+						</h5>
+						<ul>
+							<li>
+								We will perform multi-ancestry proteomics GWAS, identify ancestry specific pQTLs,
+								generate protein polygenic risk scores (PRS) and assess the role of rare coding
+								variants
+								for protein quantity
+							</li>
+							<li>
+								We will develop frameworks combining population genetics and post-GWAS methods
+								mapping
+								evolutionary important regions ->
+								population specific variants -> gene -> protein -> pathways ->
+								disease
+							</li>
+						</ul>
+						<h5>
+							Neurological manifestations of post-acute sequelae SARS-CoV-2 infection (PASC)
+						</h5>
+						<ul>
+							<li>
+								A high percentage of people with COVID-19 reported PASC, among PASC symptoms, long
+								term
+								neurological manifestations are the most impactful, with the most severe effects in
+								cognition, memory problems and Alzheimer’s disease.
+							</li>
+							<li>
+								Supported by large genomics and multi-omics datasets from <a
+								   href="https://www.quebeccovidbiobank.ca">BQC19</a> (Banque québécoise de la
+								COVID-19), <a href="https://www.clsa-elcv.ca">CLSA</a> (Canadian Longitudinal Study
+								on
+								Aging), <a href="https://www.ukbiobank.ac.uk">UK Biobank</a>, and collaborating
+								with international COVID-19 cohorts, we will study the genetic determinants of
+								neurological manifestations of PASC.
+							</li>
+							<li>Our recent COVID-19 publication in <a
+								   href="https://www.nature.com/articles/s41591-021-01281-1">Nature Medicine</a>.</li>
+							<img src="figures/image004.png"
+								 class="figure" />
+						</ul>
+						<h5>Genomic architecture of Arctic indigenous populations</h5>
+						<ul>
+							<li>
+								To increase the diversity of genomic research in underrepresented populations, we
+								will
+								generate whole genome sequencing data of an Arctic indigenous populations (Nunavik
+								Inuit), following our previous
+								<a href="https://www.pnas.org/doi/10.1073/pnas.1810388116">publication</a>.
+							</li>
+							<img src="figures/image005.png"
+								 class="figure" />
+							<li>We aim to characterize founder, admixture, introgression and natural selection
+								events of
+								Nunavik Inuit, some of which
+								may contribute to certain disease risks, the findings will advance our knowledge of
+								the
+								population and better serve the
+								community.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+			<div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+				<div class="my-3 p-3">
+					<h2 class="display-5 pb-4"
+						id="team">Our Team</h2>
+					<div class="container text-start pb-4">
+						Our newly established Population Genomics and Multi-Omics lab (since 2022) is under the umbrella
+						of McGill Canada Excellence Research Chair (CERC) in <a
+						   href="https://www.genomic-medicine-cerc.online">Genomic Medicine</a>. We enjoy rich resources
+						and close connection with other CERC members, including the labs of Computational Genomics and
+						Functional Genomics. We are located in the <a href="https://www.mcgillgenomecentre.ca">Genome
+							Building</a> of the world leading <a href="https://www.mcgill.ca">McGill University</a>.
+					</div>
+					<figure>
+						<figcaption><b>Sirui Zhou</b></figcaption>
+						<img src="images/image001.jpg"
+							 title="Sirui Zhou"
+							 alt="Sirui Zhou"
+							 width="275px" />
+					</figure>
+					<div class="container text-start pb-4">Sirui Zhou is an Assistant Professor in the Departments of
+						Human
+						Genetics and Quantitative Life Science at McGill University. She received her MSc from the
+						Chinese
+						Academy of Medical Sciences & Peking Union Medical College and PhD from Université de Montréal.
+						She
+						was a CIHR postdoctoral fellow in Genetic Epidemiology at the Lady Davis Institute. Her research
+						focus is using large scale genomics and multi-omics data to explore ancestry specific
+						determinants
+						of complex diseases. Her primary interests are immune related diseases and cerebrovascular
+						disease.
+					</div>
+					<figure>
+						<figcaption><b>Susannah Selber-Hnatiw</b></figcaption>
+						<img src="images/image002.jpg"
+							 title="Susannah Selber-Hnatiw"
+							 alt="Susannah Selber-Hnatiw"
+							 width="225px" />
+					</figure>
+					<div class="container text-start pb-4">Susannah Selber-Hnatiw is a doctoral student in the
+						department of Human Genetics. She obtained her M.Sc. from Concordia University in 2022, studying
+						the production and modification of secondary metabolites in Aspergillus niger. She is passionate
+						about rational drug design and her doctoral research will focus on identifying disease
+						biomarkers that can be used for the development of novel therapeutics.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+			<div class="bg-light me-md-3 overflow-hidden pt-3 pt-md-5 px-3 px-md-5 text-center">
+				<div class="my-3 p-3">
+					<h2 class="display-5 pb-4"
+						id="publications">Publications</h2>
+					<div class="container">
+						<object type="text/html"
+								data="publications.htm"
+								width="100%"
+								height="640px"
+								style="font-size: 20px;">
+						</object>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+			<div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+				<div class="my-3 p-3">
+					<h2 class="display-5 pb-4"
+						id="outreach">Outreach</h2>
+					<a class="btn btn-outline-secondary"
+					   href="#">Coming soon</a>
+					<p class="lead">....</p>
+				</div>
+			</div>
+		</div>
+		<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3"
+			 data-pg-collapsed>
+			<div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+				<div class="my-3 p-3">
+					<h2 class="display-5 pb-4"
+						id="positions">Open Positions</h2>
+
+					<div class="container text-start">
+						<ol type="1">
+							<h5>
+								<li>
+									PhD or MSc in <a
+									   href="https://www.mcgill.ca/humangenetics/prospective-graduate-students">Human
+										Genetics</a>
+									or PhD in
+									<a href="https://www.mcgill.ca/qls">Quantitative Life Science</a>
+							</h5>
+							</li>
+							<h5>
+								<li>
+									Postdoctoral fellow
+							</h5>
+							</li>
+							We are looking for a motivated researcher with strong background in quantitative
+							analysis/computational
+							biology/biostatistics/bioinformatics.
+							<ul>
+								<li>
+									PhD in Human Genetics, Genetic Epidemiology, Population Genetics, Statistical
+									Genetics or
+									related field.
+								</li>
+								<li>Experience in bioinformatics and programming skills is required.</li>
+								<li>Familiar with Linux environment, shell scripting and command-line software.</li>
+								<li>Demonstrated proficiency in R is required.</li>
+								<li>Demonstrated proficiency in Python is an asset.</li>
+								<li>Familiar with cloud computing is an asset.</li>
+								<li>Experience working with large scale human genomic and multi-omics dataset is an
+									asset.</li>
+								<li>Experience in population and evolutionary genetics is an asset.</li>
+							</ul>
+						</ol>
+						For interested candidates, please send your CV, transcript and a cover letter to
+						<a href="mailto:sirui.zhou@mcgill.ca">sirui.zhou@mcgill.ca</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+			<div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 text-start pt-2">
+							<span class="nowrap">
+								<p class="brand">Zhou Lab
+									<img src="media/dna-science-icon_dark.svg"
+										 class="brand" />
+								</p>
+							</span>
+						</div>
+						<div class="col-4">
+							<h2 class="display-5 pb-4"
+								id="contact">Contact</h2>
+						</div>
+						<div class="col-4"></div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+						</div>
+						<div class="col-9">
+							<p class="contact"
+							   style="font-weight:500;">
+								Sirui Zhou, PhD
+							</p>
+							<p class="contact">Canada Excellence Research Chair in Genomic Medicine</p>
+							<p class="contact">Assistant Professor, Departments of Human Genetics and Quantitative
+								Life
+								Science</p>
+							<p class="contact"><span style="font-weight: 300;">Email: </span><a
+								   href="mailto:sirui.zhou@mcgill.ca">sirui.zhou@mcgill.ca</a>
+							</p>
+							<p class="contact"><span style="font-weight: 300;">Phone: </span>(514) 398-8364</p>
+							<p class="contact">740 Dr Penfield Ave, Room 7101</p>
+							<p class="contact">Montréal, Québec, Canada, H3A 1A4</p>
+						</div>
+						</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</footer>
+	</main>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="scripts/zhoulab.js"></script>
