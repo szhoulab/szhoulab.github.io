@@ -46,7 +46,7 @@ img.brand {
 
 @media only screen and (max-width: 540px) {
 	.logo {
-		padding-top: 40px;
+		padding-top: 50px;
 	}
 
 	img.brand {
@@ -55,6 +55,12 @@ img.brand {
 
 	p.brand {
 		font-size: 15px
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.logo {
+		padding-top: 40px;
 	}
 }
 
@@ -98,7 +104,7 @@ img.figure {
 }
 
 .background {
-	background-image: url(../figures/image002.jpg);
+	background-image: url(../media/figures/image002.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: auto;
