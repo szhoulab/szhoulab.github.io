@@ -1,138 +1,142 @@
-.container {
-	max-width: 1200px;
-}
+  /** {
+			border: 1px solid red !important;
+		}*/
 
-.site-header {
-	background-color: rgba(0, 0, 0, 0.85);
-	-webkit-backdrop-filter: saturate(180%) blur(20px);
-	backdrop-filter: saturate(180%) blur(20px);
-}
+  .container {
+  	max-width: 1200px;
+  }
 
-.site-header a {
-	color: #8e8e8e;
-	transition: color 0.15s ease-in-out;
-}
+  .site-header {
+  	background-color: rgba(0, 0, 0, 0.85);
+  	-webkit-backdrop-filter: saturate(180%) blur(20px);
+  	backdrop-filter: saturate(180%) blur(20px);
+  }
 
-.site-header a:hover {
-	color: #fff;
-	text-decoration: none;
-}
+  .site-header a {
+  	color: #8e8e8e;
+  	transition: color 0.15s ease-in-out;
+  }
 
-p.contact {
-	text-align: left;
-	margin-bottom: 5px;
-	line-height: 18px;
-}
+  .site-header a:hover {
+  	color: #fff;
+  	text-decoration: none;
+  }
 
-p.brand {
-	text-align: left;
-	font-weight: 600;
-	font-size: 18px;
-}
+  p.contact {
+  	text-align: left;
+  	margin-bottom: 5px;
+  	line-height: 18px;
+  }
 
-.nowrap {
-	white-space: nowrap;
-}
+  p.brand {
+  	font-weight: 400;
+  	font-size: 18px;
+  	opacity: 50%;
+  }
 
-.logo {
-	padding-top: 25px;
-	height: 300px;
-}
+  .nowrap {
+  	white-space: nowrap;
+  }
 
-img.brand {
-	max-width: 30px;
-	margin-right: 10px;
-}
+  .logo {
+  	padding-top: 25px;
+  	height: 300px;
+  }
 
-@media only screen and (max-width: 540px) {
-	.logo {
-		padding-top: 50px;
-	}
+  img.brand {
+  	max-width: 30px;
+  	margin-right: 10px;
+  }
 
-	img.brand {
-		max-width: 20px;
-	}
+  @media only screen and (max-width: 540px) {
+  	.logo {
+  		padding-top: 50px;
+  	}
 
-	p.brand {
-		font-size: 15px
-	}
-}
+  	img.brand {
+  		max-width: 20px;
+  	}
 
-@media only screen and (max-width: 540px) {
-	.logo {
-		padding-top: 40px;
-	}
-}
+  	p.brand {
+  		font-size: 15px
+  	}
+  }
 
-@media only screen and (max-width: 768px) and (min-width: 540px) {
-	.logo {
-		padding-top: 30px;
-	}
-}
+  @media only screen and (max-width: 540px) {
+  	.logo {
+  		padding-top: 40px;
+  	}
+  }
 
-@media only screen and (max-width: 960px) and (min-width: 768px) {
-	.logo {
-		padding-top: 40px;
-		font-size: 3em;
-	}
-}
+  @media only screen and (max-width: 768px) and (min-width: 540px) {
+  	.logo {
+  		padding-top: 30px;
+  	}
+  }
 
-@media only screen and (max-width: 1237px) and (min-width: 960px) {
-	.logo {
-		padding-top: 50px;
-		font-size: 3em;
-	}
+  @media only screen and (max-width: 960px) and (min-width: 768px) {
+  	.logo {
+  		padding-top: 40px;
+  		font-size: 3em;
+  	}
+  }
 
-}
+  @media only screen and (max-width: 1237px) and (min-width: 960px) {
+  	.logo {
+  		padding-top: 50px;
+  		font-size: 3em;
+  	}
 
-[id]::before {
-	content: "";
-	display: block;
-	height: 75px;
-	margin-top: -75px;
-	visibility: hidden;
-}
+  }
 
-img {
-	max-width: 100%;
-	max-height: 100%;
-}
+  [id]::before {
+  	content: "";
+  	display: block;
+  	height: 75px;
+  	margin-top: -75px;
+  	visibility: hidden;
+  }
 
-img.figure {
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
+  img {
+  	max-width: 100%;
+  	max-height: 100%;
+  }
 
-.background {
-	background-image: url(../media/figures/image002.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: auto;
-	height: auto;
-	width: auto;
-}
+  img.figure {
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+  }
 
-.blur {
-	background: rgba(255, 255, 255, 0.75);
-	backdrop-filter: blur(5px);
-	height: auto;
-	width: auto;
-}
+  .background {
+  	background-image: url(../media/figures/image002.jpg);
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: auto;
+  	height: auto;
+  	width: auto;
+  }
 
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-}
+  .blur {
+  	background: rgba(255, 255, 255, 0.75);
+  	backdrop-filter: blur(5px);
+  	height: auto;
+  	width: auto;
+  }
 
-.flex-equal>* {
-	flex: 1;
-}
+  .center {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 80%;
+  }
 
-@media (min-width: 768px) {
+  .flex-equal>* {
+  	flex: 1;
+  }
 
-	.flex-md-equal>* {
-		flex: 1;
-	}
-}
+  @media (min-width: 768px) {
+
+  	.flex-md-equal>* {
+  		flex: 1;
+  	}
+  }
