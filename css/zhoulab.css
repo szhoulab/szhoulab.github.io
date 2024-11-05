@@ -1,6 +1,51 @@
-  /** {
-			border: 1px solid red !important;
-		}*/
+  :root {
+  	--bio-image-size: 150px;
+  	--bio-first-image-size: 1000px;
+  }
+
+  .bio-table-fullwidth {
+  	width: 100%;
+  	border-collapse: collapse;
+  }
+
+  .bio-row-divider {
+  	border-bottom: 1px solid #ddd;
+  }
+
+  .bio-cell-padding {
+  	padding: 10px;
+  }
+
+  .bio-image-size {
+  	width: var(--bio-image-size);
+  	height: auto;
+  	border-radius: 8px;
+  }
+
+  .bio-first-image-size {
+  	/*padding-top: 10px;*/
+  	width: var(--bio-first-image-size);
+  }
+
+  .bio-first-text-title {
+  	font-size: 25px;
+  	font-weight: 700;
+  }
+
+  .bio-text-description {
+  	font-family: Arial, sans-serif;
+  	color: #333;
+  }
+
+  .bio-text-title {
+  	font-size: 20px;
+  	font-weight: 700;
+  }
+
+  .bio-text-position {
+  	font-weight: 600;
+  	padding-bottom: 10px;
+  }
 
   .container {
   	max-width: 1200px;
